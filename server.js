@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: false }));
 
 // connecting to mongoDb
 const { connectMongoDb } = require("./connections/user.connect");
-connectMongoDb("mongodb+srv://Users-data:tHntJjIQraf4fGfv@cluster0.jlljftx.mongodb.net/USER-API?appName=Cluster0")
+connectMongoDb(process.env.MONGO_PASS)
 
 
 app.use("/user" , userRouter)
