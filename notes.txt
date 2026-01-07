@@ -1,0 +1,11 @@
+Schema -> structure to the db
+    schema - Model
+    using model we do CRUD operations
+
+CRUD operations -> create, read , update , and delete
+
+models -> connections -> routes -> server.js
+
+dependencies -> npm install
+automatic server reload or restarts -> npm nodemon
+
